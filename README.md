@@ -109,3 +109,66 @@ The extension uses a JSON database containing:
     Enable "Developer mode" (toggle in top right)
 
     Click "Load unpacked" and select the extension folder
+
+## Technical Architecture
+
+### Core Files Structure
+kanji-quiz/
+├── manifest.json # Extension metadata and permissions
+├── popup/ # Main user interface components
+│ ├── popup.html # Quiz interface structure
+│ ├── popup.css # Responsive styling
+│ └── popup.js # Core quiz logic and interactions
+├── background/ # Background processes
+│ └── background.js # Alarm scheduling and notifications
+├── assets/ # Static resources
+│ ├── kanji-data.json # Comprehensive kanji database
+│ └── icons/ # Extension icon set
+└── README.md # Project documentation
+
+### Key Components Breakdown
+
+1. **manifest.json**
+   - Declares extension permissions (storage, alarms, notifications)
+   - Specifies action popup and background service worker
+   - Defines icon sets for different display contexts
+   - Uses Manifest V3 for modern Chrome compatibility
+
+2. **popup.html**
+   - Contains the complete quiz interface with:
+     - Kanji display area
+     - Answer input field
+     - Progress tracking section
+     - Settings controls
+   - Semantic HTML5 structure for accessibility
+   - Responsive container for various window sizes
+
+3. **popup.css**
+   - Mobile-first responsive design
+   - Animated transitions for correct/incorrect feedback
+   - Accessible color contrast ratios
+   - Print-friendly styles for study sheets
+
+4. **popup.js**
+   - Manages all quiz interactions:
+     - Random kanji selection algorithm
+     - Answer validation logic
+     - Attempt counting system
+     - Progress tracking functions
+   - Handles Chrome storage operations
+   - Implements settings synchronization
+
+5. **background.js**
+   - Scheduled quiz reminders using chrome.alarms
+   - Badge notification system
+   - Cross-window event coordination
+   - Error handling for inactive tabs
+
+6. **kanji-data.json**
+   - Curated collection of 70+ essential kanji
+   - Each entry includes:
+     - Multiple English meanings
+     - On'yomi and kun'yomi readings
+     - Example compounds with translations
+     - JLPT level classification
+     - Stroke count information
