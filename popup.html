@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Kanji Quiz</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div id="quiz-container">
+      <div id="kanji-display"></div>
+      <div id="input-container">
+        <input type="text" id="answer-input" placeholder="Enter meaning in English">
+        <button id="submit-btn">Submit</button>
+        <button id="give-up-btn" class="secondary">Give Up</button>
+      </div>
+      <div id="result-container"></div>
+      <button id="next-kanji-btn" style="display: none; margin-top: 10px;">Next Kanji</button>
+    </div>
+
+    <div id="progress-container">
+        <div id="kanji-stats"></div>
+        <button id="view-progress" class="secondary">View All Progress</button>
+        <div id="all-progress" style="display: none; margin-top: 10px; max-height: 150px; overflow-y: auto; border: 1px solid #ddd; padding: 5px;"></div>
+    </div>
+    
+    <div id="settings-container">
+      <h3>Settings</h3>
+      <label for="interval">Quiz interval (minutes):</label>
+      <input type="number" id="interval" min="1" value="15">
+      <button id="save-settings">Save Settings</button>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

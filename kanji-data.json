@@ -1,0 +1,278 @@
+[
+  {
+    "kanji": "日",
+    "meanings": ["day", "sun", "Japan"],
+    "readings": {
+      "onyomi": ["ニチ", "ジツ"],
+      "kunyomi": ["ひ", "-び", "-か"]
+    },
+    "examples": [
+      {"japanese": "日曜日", "reading": "にちようび", "english": "Sunday"},
+      {"japanese": "日本", "reading": "にほん", "english": "Japan"}
+    ]
+  },
+  {
+    "kanji": "水",
+    "meanings": ["water"],
+    "readings": {
+      "onyomi": ["スイ"],
+      "kunyomi": ["みず"]
+    },
+    "examples": [
+      {"japanese": "水曜日", "reading": "すいようび", "english": "Wednesday"},
+      {"japanese": "水", "reading": "みず", "english": "water"}
+    ]
+  },
+  {
+    "kanji": "火",
+    "meanings": ["fire"],
+    "readings": {
+      "onyomi": ["カ"],
+      "kunyomi": ["ひ"]
+    },
+    "examples": [
+      {"japanese": "火曜日", "reading": "かようび", "english": "Tuesday"},
+      {"japanese": "火", "reading": "ひ", "english": "fire"}
+    ]
+  },
+  {
+    "kanji": "木",
+    "meanings": ["tree", "wood"],
+    "readings": {
+      "onyomi": ["モク", "ボク"],
+      "kunyomi": ["き", "こ"]
+    },
+    "examples": [
+      {"japanese": "木曜日", "reading": "もくようび", "english": "Thursday"},
+      {"japanese": "木", "reading": "き", "english": "tree"}
+    ]
+  },
+  {
+    "kanji": "金",
+    "meanings": ["gold", "money"],
+    "readings": {
+      "onyomi": ["キン", "コン"],
+      "kunyomi": ["かね"]
+    },
+    "examples": [
+      {"japanese": "金曜日", "reading": "きんようび", "english": "Friday"},
+      {"japanese": "お金", "reading": "おかね", "english": "money"}
+    ]
+  },
+  {
+    "kanji": "山",
+    "meanings": ["mountain"],
+    "readings": {
+      "onyomi": ["サン"],
+      "kunyomi": ["やま"]
+    },
+    "examples": [
+      {"japanese": "山", "reading": "やま", "english": "mountain"},
+      {"japanese": "火山", "reading": "かざん", "english": "volcano"}
+    ]
+  },
+  {
+    "kanji": "川",
+    "meanings": ["river", "stream"],
+    "readings": {
+      "onyomi": ["セン"],
+      "kunyomi": ["かわ"]
+    },
+    "examples": [
+      {"japanese": "川", "reading": "かわ", "english": "river"},
+      {"japanese": "小川", "reading": "おがわ", "english": "brook"}
+    ]
+  },
+  {
+    "kanji": "月",
+    "meanings": ["moon", "month"],
+    "readings": {
+      "onyomi": ["ゲツ", "ガツ"],
+      "kunyomi": ["つき"]
+    },
+    "examples": [
+      {"japanese": "月", "reading": "つき", "english": "moon"},
+      {"japanese": "一月", "reading": "いちがつ", "english": "January"}
+    ]
+  },
+  {
+    "kanji": "土",
+    "meanings": ["soil", "earth", "ground"],
+    "readings": {
+      "onyomi": ["ド", "ト"],
+      "kunyomi": ["つち"]
+    },
+    "examples": [
+      {"japanese": "土", "reading": "つち", "english": "soil"},
+      {"japanese": "土曜日", "reading": "どようび", "english": "Saturday"}
+    ]
+  },
+  {
+    "kanji": "人",
+    "meanings": ["person", "people"],
+    "readings": {
+      "onyomi": ["ジン", "ニン"],
+      "kunyomi": ["ひと"]
+    },
+    "examples": [
+      {"japanese": "人", "reading": "ひと", "english": "person"},
+      {"japanese": "日本人", "reading": "にほんじん", "english": "Japanese person"}
+    ]
+  },
+  {
+    "kanji": "口",
+    "meanings": ["mouth", "opening"],
+    "readings": {
+      "onyomi": ["コウ", "ク"],
+      "kunyomi": ["くち"]
+    },
+    "examples": [
+      {"japanese": "口", "reading": "くち", "english": "mouth"},
+      {"japanese": "人口", "reading": "じんこう", "english": "population"}
+    ]
+  },
+  {
+    "kanji": "目",
+    "meanings": ["eye", "look"],
+    "readings": {
+      "onyomi": ["モク", "ボク"],
+      "kunyomi": ["め"]
+    },
+    "examples": [
+      {"japanese": "目", "reading": "め", "english": "eye"},
+      {"japanese": "目的", "reading": "もくてき", "english": "purpose"}
+    ]
+  },
+  {
+    "kanji": "手",
+    "meanings": ["hand"],
+    "readings": {
+      "onyomi": ["シュ"],
+      "kunyomi": ["て"]
+    },
+    "examples": [
+      {"japanese": "手", "reading": "て", "english": "hand"},
+      {"japanese": "上手", "reading": "じょうず", "english": "skillful"}
+    ]
+  },
+  {
+    "kanji": "足",
+    "meanings": ["foot", "leg", "sufficient"],
+    "readings": {
+      "onyomi": ["ソク"],
+      "kunyomi": ["あし", "た"]
+    },
+    "examples": [
+      {"japanese": "足", "reading": "あし", "english": "foot"},
+      {"japanese": "足りる", "reading": "たりる", "english": "to be enough"}
+    ]
+  },
+  {
+    "kanji": "車",
+    "meanings": ["car", "vehicle"],
+    "readings": {
+      "onyomi": ["シャ"],
+      "kunyomi": ["くるま"]
+    },
+    "examples": [
+      {"japanese": "車", "reading": "くるま", "english": "car"},
+      {"japanese": "電車", "reading": "でんしゃ", "english": "train"}
+    ]
+  },
+  {
+    "kanji": "電",
+    "meanings": ["electricity"],
+    "readings": {
+      "onyomi": ["デン"],
+      "kunyomi": []
+    },
+    "examples": [
+      {"japanese": "電気", "reading": "でんき", "english": "electricity"},
+      {"japanese": "電話", "reading": "でんわ", "english": "telephone"}
+    ]
+  },
+  {
+    "kanji": "気",
+    "meanings": ["spirit", "mind", "energy"],
+    "readings": {
+      "onyomi": ["キ", "ケ"],
+      "kunyomi": []
+    },
+    "examples": [
+      {"japanese": "気", "reading": "き", "english": "spirit"},
+      {"japanese": "天気", "reading": "てんき", "english": "weather"}
+    ]
+  },
+  {
+    "kanji": "学",
+    "meanings": ["study", "learning"],
+    "readings": {
+      "onyomi": ["ガク"],
+      "kunyomi": ["まな"]
+    },
+    "examples": [
+      {"japanese": "学生", "reading": "がくせい", "english": "student"},
+      {"japanese": "学ぶ", "reading": "まなぶ", "english": "to learn"}
+    ]
+  },
+  {
+    "kanji": "校",
+    "meanings": ["school"],
+    "readings": {
+      "onyomi": ["コウ"],
+      "kunyomi": []
+    },
+    "examples": [
+      {"japanese": "学校", "reading": "がっこう", "english": "school"},
+      {"japanese": "校長", "reading": "こうちょう", "english": "principal"}
+    ]
+  },
+  {
+    "kanji": "食",
+    "meanings": ["eat", "food"],
+    "readings": {
+      "onyomi": ["ショク", "ジキ"],
+      "kunyomi": ["た", "く"]
+    },
+    "examples": [
+      {"japanese": "食べる", "reading": "たべる", "english": "to eat"},
+      {"japanese": "食事", "reading": "しょくじ", "english": "meal"}
+    ]
+  },
+  {
+    "kanji": "飲",
+    "meanings": ["drink"],
+    "readings": {
+      "onyomi": ["イン"],
+      "kunyomi": ["の"]
+    },
+    "examples": [
+      {"japanese": "飲む", "reading": "のむ", "english": "to drink"},
+      {"japanese": "飲料", "reading": "いんりょう", "english": "beverage"}
+    ]
+  },
+  {
+    "kanji": "行",
+    "meanings": ["go", "conduct"],
+    "readings": {
+      "onyomi": ["コウ", "ギョウ"],
+      "kunyomi": ["い", "おこな"]
+    },
+    "examples": [
+      {"japanese": "行く", "reading": "いく", "english": "to go"},
+      {"japanese": "銀行", "reading": "ぎんこう", "english": "bank"}
+    ]
+  },
+  {
+    "kanji": "会",
+    "meanings": ["meeting", "association"],
+    "readings": {
+      "onyomi": ["カイ", "エ"],
+      "kunyomi": ["あ"]
+    },
+    "examples": [
+      {"japanese": "会う", "reading": "あう", "english": "to meet"},
+      {"japanese": "会社", "reading": "かいしゃ", "english": "company"}
+    ]
+  }
+]
