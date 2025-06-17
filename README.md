@@ -114,17 +114,20 @@ The extension uses a JSON database containing:
 
 ### Core Files Structure
 kanji-quiz/
-├── manifest.json # Extension metadata and permissions
-├── popup/ # Main user interface components
-│ ├── popup.html # Quiz interface structure
-│ ├── popup.css # Responsive styling
-│ └── popup.js # Core quiz logic and interactions
-├── background/ # Background processes
-│ └── background.js # Alarm scheduling and notifications
-├── assets/ # Static resources
-│ ├── kanji-data.json # Comprehensive kanji database
-│ └── icons/ # Extension icon set
-└── README.md # Project documentation
+├── manifest.json
+├── popup/
+│   ├── popup.html
+│   ├── popup.css
+│   └── popup.js
+├── background/
+│   └── background.js
+├── assets/
+│   ├── kanji-data.json
+│   └── icons/
+│       ├── icon16.png
+│       ├── icon48.png
+│       └── icon128.png
+└── README.md
 
 ### Key Components Breakdown
 
